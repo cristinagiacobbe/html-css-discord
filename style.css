@@ -19,6 +19,11 @@
 --footer-bar:#7fffd4;
 --footer-bt:#fab2bc;
 }
+:root
+{
+--haeder--bg:#3161e0;
+}
+/* #region utility */
 .cw{
     max-width: 1000px;
     width: 80%;
@@ -29,6 +34,18 @@
 .d-flex{
     display: flex;    
 }
+.tdn-w{
+    text-decoration: none;
+    color: white;
+}
+.tdn-b{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 15%;
+}
+/* #endregion utility */
+/* #region debug */
 .debug .db{
     border: 1px dashed black;
 }
@@ -39,20 +56,6 @@
 .debug .bar-header{
     height: 30px;
     background-color: var(--header-block);        
-}
-.logo, .link, .login{
-    height: 100%;
-}
-.logo{
-    width: calc((100% / 5));
-}
-.link{
-    width: calc((100% / 5)*3);
-    text-align: center;
-}
-.login{
-    width: calc((100% / 5));
-    text-align: end;
 }
 .debug .section1{
     height: 300px;
@@ -82,6 +85,29 @@
     height: 200px;
     background-color: var(--section-bg2);  
 }
+/* #endregion debug */
+
+header{
+    background-color: var(--haeder--bg);
+}
+.logo, .link, .login{
+    height: 100%;
+}
+.logo{
+    width: calc((100% / 5));
+}
+.link{
+    width: calc((100% / 5)*3);
+    text-align: center;     
+}
+.login{
+    width: calc((100% / 5));
+    text-align: end;     
+}
+.bar-header{
+    align-items: center;
+}
+
 .blue-block{
     width: 70%;
     height: 150px;
