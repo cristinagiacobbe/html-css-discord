@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+--header-block: #daa520;
+--header-bg:#add8e6;
+--section-bg1:#00008b;
+--section-bg2:#d3d3d3;
+--dark-bg:#23272a;
+--section1-block1:#ee82ee;
+--section-block1:#1e90ff;
+--section-block2:#ffc0cb;
+--section-block3:#228b22;
+--section-footer-top1:#f08080;
+--section-footer-top2:#20b2aa;
+--footer-bar:#7fffd4;
+--footer-bt:#fab2bc;
+}
+.cw{
+    max-width: 1000px;
+    width: 80%;
+}
+.ma{
+    margin: auto;
+}
+.d-flex{
+    display: flex;    
+}
+.debug .db{
+    border: 1px dashed black;
+}
+.debug header{
+    background-color: var(--header-bg);
+    height: 50px;
+}
+.debug .bar-header{
+    height: 30px;
+    background-color: var(--header-block);        
+}
+.logo, .link, .login{
+    height: 100%;
+}
+.logo{
+    width: calc((100% / 5));
+}
+.link{
+    width: calc((100% / 5)*3);
+    text-align: center;
+}
+.login{
+    width: calc((100% / 5));
+    text-align: end;
+}
+.debug .section1{
+    height: 300px;
+    background-color: var(--section-bg1);
+}
+.debug .violet-block{
+    width: 500px;
+    height: 200px;
+    background-color: var(--section1-block1);    
+}
+.debug .section2{
+    height: 200px;
+    background-color: white;   
+    border-bottom: 1px solid black; 
+}
+.debug .blue-block{
+    width: 70%;
+    height: 150px;
+    background-color: var(--section-block1);    
+}
+.debug .pink-block{
+    width: 30%;
+    height: 150px;
+    background-color: var(--section-block2);
+}
+.debug .section3{
+    height: 200px;
+    background-color: var(--section-bg2);  
+}
+.blue-block{
+    width: 70%;
+    height: 150px;
+    background-color: var(--section-block1);    
+}
+.debug .pink-block{
+    width: 30%;
+    height: 150px;
+    background-color: var(--section-block2);
+}
+.debug .section4{
+    background-color: var(--section-bg2);
+    height: 400px;
+}
+.debug .green-block{
+    height: 300px;
+    background-color: var(--section-block3)
+}
+footer{
+    background-color: var(--dark-bg);
+}
+.debug .footer-top{
+    height: 330px;    
+    border-bottom: 1px solid white;
+}
+.debug .dark-pink-block{    
+    height: 300px;
+    background-color: var(--section-footer-top1);
+    border: 1px dashed black;
+}
+.dark-pink-block{
+    width: calc(100%/6*2);
+}
+.debug .dark-blue-block{    
+    height: 300px;
+    background-color: var(--section-footer-top2);
+    border: 1px dashed white;
+}
+.dark-blue-block{
+    width: calc(100%/6);   
+}
+.debug .footer-bottom{
+    height: 50px;
+}
+.debug .footer-bar{
+    background-color: var(--footer-bar);
+    height: 30px;    
+}
+.footer-bar{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.debug .logo-footer, .button-footer{
+    height: 30px;
+    background-color: var(--footer-bt);
+}
+.logo-footer, .button-footer{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+.logo-footer{
+    width: 50px;
+}
+.button-footer{
+    width: 80px;
+}
