@@ -168,17 +168,26 @@ h3{
     background-image: url("./img/wave.svg");
     background-repeat: repeat;
     background-color: rgb(9, 7, 7);
-
 }
-
-
+.Keep-contact{
+    color: black;
+    text-align: center;
+}
+.tdn-blue{
+    text-decoration: none;
+    color: white;
+    background-color: #1e90ff;
+    border-radius: 15px;
+    padding: 5px;
+}
 
 footer{
     background-color: var(--dark-bg);
 }
 
-.dark-pink-block{
+.Col1-footer-bottom{
     width: calc(100%/6*2);
+    color: #3161e0;
 }
 
 .dark-blue-block{
