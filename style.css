@@ -185,15 +185,27 @@ footer{
     background-color: var(--dark-bg);
 }
 
-.Col1-footer-bottom{
+.Large-Col-footer-bottom{
     width: calc(100%/6*2);
     color: #3161e0;
 }
-
-.dark-blue-block{
-    width: calc(100%/6);   
+.Strict-Col-footer-bottom{
+    width: calc(100%/6);  
+    color: #3161e0; 
 }
-
+.text-footer{
+    color: white;
+    text-align: center;
+}
+.Col1 {
+    color: white;
+}
+.flag{
+    gap: 5px;
+}
+.social{
+    padding-top: 5px;
+}
 .footer-bar{
     width: 100%;
     justify-content: space-between;
