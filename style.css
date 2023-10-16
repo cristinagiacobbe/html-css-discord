@@ -45,6 +45,7 @@
     border-radius: 15%;
     padding: 5px;
     font-size: smaller;
+    transition: box-sahdow 4s;
 }
 /* #endregion utility */
 /* #region debug */
@@ -126,7 +127,9 @@
     background-color: var(--footer-bt);
 }
 /* #endregion debug */
-
+.tdn-b:hover{
+    box-shadow: 5px 5px 5px 5px rgb(25, 24, 24);
+}
 header{
     background-color: var(--haeder--bg);
     /* position: fixed; */
@@ -136,8 +139,19 @@ header{
     align-items: center;
     justify-content: space-between;    
 }
+.logo{
+    animation: opacization 4s;
+}
+@keyframes opacization{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
 .link{
     gap: 10px;
+    transition: border-bottom 4s;
+}
+.link:hover{
+    border-bottom: 4px solid blue;
 }
 .jumbo{
     height: 300px;
@@ -163,11 +177,16 @@ h3{
     padding-left: 50px;
     text-align: left;
 }
-.fandom{
-    height: 200px;
-    background-image: url("./img/wave.svg");
-    background-repeat: repeat;
-    background-color: rgb(9, 7, 7);
+.wave{
+   width: 100%; 
+   filter: opacity(1);
+}
+.left-image{
+    filter: blur(20px);
+    transition: filter 2s;
+}
+.left-image:hover{
+    filter:blur(0);
 }
 .Keep-contact{
     color: black;
